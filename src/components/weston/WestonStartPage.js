@@ -82,19 +82,19 @@ export default class WestonStartPage extends Component {
                     <div className="link-set-group row text-center">
                         <div className="link-set col-md-4 mb-3">
                             <div className="link-set-head">
-                                <img src={entertainLogo} className="mb-3" />
+                                <img src={entertainLogo} alt="Entertainment" className="mb-3" />
                             </div>
                             <LinkSet links={links} category="Entertain" />
                         </div>
                         <div className="link-set col-md-4 mb-3">
                             <div className="link-set-head">
-                                <img src={codeLogo} className="mb-3" />
+                                <img src={codeLogo} alt="Code" className="mb-3" />
                             </div>
                             <LinkSet links={links} category="Dev" />
                         </div>
                         <div className="link-set col-md-4 mb-3">
                             <div className="link-set-head">
-                                <img src={eyeLogo} className="mb-3" />
+                                <img src={eyeLogo} alt="Gaming" className="mb-3" />
                             </div>
                             <LinkSet links={links} category="Gaming" />
                         </div>
