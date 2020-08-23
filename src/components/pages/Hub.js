@@ -6,7 +6,7 @@ export default class hub extends Component {
         return (
             <div className="container">
                 <h1 className="display-4">
-                    Hello there
+                    Hello There
                 </h1>
                 <Link to="/weston" className="btn btn-primary">Weston</Link>
                 <h1 className="display-4">
